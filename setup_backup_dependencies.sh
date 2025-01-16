@@ -8,8 +8,9 @@ sudo apt update -y
 echo "Installing zip..."
 sudo apt install zip -y
 
-echo "Installing MySQL Client..."
-sudo apt install mysql-client -y
+
+sudo apt install mariadb-client
+
 
 # Verify installations
 echo "Verifying installed packages..."
